@@ -46,7 +46,7 @@ pip install -r requirements.txt
 cd examples && ls
 ```
 
-1. Execute the desired script
+1. Execute the desired script. Note all examples scripts import `path_resolver` to be able to import required functions from other directories.
 
 ```
 python [script-file-name].py
