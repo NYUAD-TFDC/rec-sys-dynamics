@@ -46,10 +46,16 @@ pip install -r requirements.txt
 cd examples && ls
 ```
 
-1. Execute the desired script. Note all examples scripts import `path_resolver` to be able to import required functions from other directories.
+1. Execute the run.py script with the help flag to see position arguments and possible options.
 
 ```
-python [script-file-name].py
+python run.py -h
+```
+
+1. Execute the run.py script. Note the script imports `path_resolver` to be able to import required functions from other directories. If you write a script, import this module.
+
+```
+python run.py [algo] [dataset]
 ```
 
 1. To deactivate the virtual environment
