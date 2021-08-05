@@ -27,7 +27,7 @@ git clone https://github.com/niniack/rec-sys-dynamics.git
 
 1. Within the repository, use a tool like [virtualenv](https://virtualenv.pypa.io/en/latest/) to set up a virtual environment with python version 3.8
 ```
-virtualenv [env-name] --python-python3.8
+virtualenv [env-name] --python python3.8
 ```
 
 1. Activate the virtual environment
